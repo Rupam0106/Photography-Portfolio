@@ -5,7 +5,6 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb_icons.png"
@@ -51,26 +50,20 @@ const Experience = () => {
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
-    {
-      id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 8,
       src: mongodb,
-      title: "GitHub",
+      title: "MongoDB",
       style: "shadow-green-400",
     },
     {
-      id: 10,
+      id: 9,
       src: angular,
-      title: "GitHub",
+      title: "Angular",
       style: "shadow-red-400",
     },
   ];
