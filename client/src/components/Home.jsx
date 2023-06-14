@@ -1,6 +1,7 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import Developer from "../assets/developer.png"
 
 const Home = () => {
   return (
@@ -36,7 +37,7 @@ const Home = () => {
 
         <div>
           <img
-            src=""
+            src={Developer}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
